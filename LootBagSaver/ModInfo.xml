@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="LootBagSaver" />
+    <DisplayName value="Loot Bag Saver" />
+    <Version value="1.0.0" />
+    <Description value="Prevents item loss when containers are destroyed. Drops remaining contents as item entities on the ground instead of deleting them." />
+    <Author value="QOL-Mod" />
+    <Website value="" />
+  </ModInfo>
+</xml>
