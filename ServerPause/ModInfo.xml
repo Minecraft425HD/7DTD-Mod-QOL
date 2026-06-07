@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="ServerPause" />
+    <DisplayName value="Server Pause" />
+    <Version value="1.0.0" />
+    <Description value="Allows admins to pause and resume the server at any time, even with active players. Use 'serverpause' in the console or as a chat command." />
+    <Author value="QOL-Mod" />
+    <Website value="" />
+  </ModInfo>
+</xml>

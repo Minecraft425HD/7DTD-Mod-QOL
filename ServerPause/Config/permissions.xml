@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+  <!--
+    ServerPause Mod - Berechtigungen
+
+    Der Befehl 'serverpause' ist standardmäßig nur für Spieler mit Adminlevel 0
+    verfügbar (volle Admins).
+
+    Um den Zugriff auf Moderatoren (z.B. Level 1) zu erweitern, kann die
+    minimale Permission auf 1 gesetzt werden - allerdings muss das in der
+    serverconfig.xml / admintools konfiguriert werden, da diese Datei nur
+    als Dokumentation dient.
+
+    Befehle:
+      Konsolenbefehle (nur Serveradmin / RCON):
+        serverpause              - Toggle Pause
+        serverpause pause        - Pausieren
+        serverpause pause <Text> - Pausieren mit Nachricht
+        serverpause resume       - Fortsetzen
+        serverpause status       - Status anzeigen
+        sp                       - Kurzform von serverpause
+
+      Chat-Befehle (Ingame, nur Level-0-Admins):
+        /pause              - Server pausieren
+        /pause <Grund>      - Server pausieren mit Nachricht
+        /resume             - Server fortsetzen
+        /fortsetzen         - Server fortsetzen (Deutsch)
+        /pausestatus        - Aktuellen Status abfragen (nur sichtbar für dich)
+
+      ESC-Taste (Serverhost / Singleplayer):
+        ESC                - Toggle Pause (funktioniert auch wenn Spieler online sind)
+                             Wird ignoriert wenn ein UI-Fenster geöffnet ist.
+  -->
+</permissions>
